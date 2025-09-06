@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gemini/flutter_gemini.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:newsapp/constants/apikey.dart';
 import 'package:newsapp/pages/newsUI.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await dotenv.load(fileName: ".env");
   Gemini.init(apiKey: geminiapi);
   runApp(const MyApp());
 }
