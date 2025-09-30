@@ -43,6 +43,6 @@ Built with BLoC state management, REST API integration, and optional AI-powered 
 
 1. Clone the repository:
    ```bash
-     - git clone https://github.com/your-username/newsapp.git
+     - git clone https://github.com/gitInfinity/newsapp.git
      - cd newsapp
 
