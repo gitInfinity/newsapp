@@ -9,17 +9,8 @@ Built with BLoC state management, REST API integration, and optional AI-powered 
 
 - [Features](#features)  
 - [Tech stack](#tech-stack)  
-- [Project structure](#project-structure)  
-- [Installation](#installation)  
-- [Configuration](#configuration)  
-- [Running the app](#running-the-app)  
-- [How it works](#how-it-works)  
-- [Development tips](#development-tips)  
-- [Roadmap](#roadmap)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Acknowledgements](#acknowledgements)
-
+- [Installation](#installation)
+ 
 ---
 
 ## Features
@@ -52,6 +43,6 @@ Built with BLoC state management, REST API integration, and optional AI-powered 
 
 1. Clone the repository:
    ```bash
-  - git clone https://github.com/your-username/newsapp.git
-  - cd newsapp
+     - git clone https://github.com/your-username/newsapp.git
+     - cd newsapp
 
